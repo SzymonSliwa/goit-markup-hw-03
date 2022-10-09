@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-Exercise1
+# goit-markup-hw-02
+
+Exercise2
