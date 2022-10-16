@@ -4,61 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <div>
-        <a href="#">
-          <span>Web</span>
-          <span>Studio</span>
+        <a href="index.html" class="link">
+          <span: class="logo blue-logo">Web</span>
+          <span: class="logo black-logo">Studio</span>
         </a>
       </div>
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Port</a>></li>
-          <li><a href="#">Kontakt</a></li>
+          <li: class="navigation"><a href="#" class="link">Agencja</a></li>
+          <li: class="navigation"><a href="portfolio.html" class="link">Portfolio</a></li>
+          <li: class="navigation"><a href="#" class="link">Kontakt</a></li>
         </ul>
       </nav>
       <div>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li: class="contacts-data"><a href="mailto:info@devstudio.com" class="link contacts-data">info@devstudio.com</a></li>
+          <li: class="contacts-data"><a href="tel:+48111111111" class="link contacts-data">+48 111 111 111</a></li>
         </ul>
       </div>
     </header>
     <main>
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <h1: class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button" class="button button-service">Zamów usługę</button>
       </section>
       <section>
-        <ul>
+        <ul: class="flex-container">
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4: class="our-strenghts">LOREM IPSUM</h4>
+            <p align="left" class="our-strenghts-description">            
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4: class="our-strenghts">LOREM IPSUM</h4>
+            <p align="left" class="our-strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4: class="our-strenghts">LOREM IPSUM</h4>
+            <p align="left" class="our-strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4: class="our-strenghts">LOREM IPSUM</h4>
+            <p align="left" class="our-strenghts-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -66,8 +70,8 @@
         </ul>
       </section>
       <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2: class="subtitle">Czym się zajmujemy</h2>
+        <ul: class="flex-container">
           <li>
             <img
               src="images/whatwedo1.jpg"
@@ -95,8 +99,8 @@
         </ul>
       </section>
       <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+        <h2: class="subtitle">Nasz zespół</h2>
+        <ul: class="flex-container">
           <li>
             <figure>
               <img
@@ -105,7 +109,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe Frontend Developer</figcaption>
+              <figcaption>
+                <p: class="caption-name">John Doe</p>
+                <p: class="caption-position"> Product Designer</p> 
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -116,7 +123,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe Frontend Developer</figcaption>
+              <figcaption>
+                <p: class="caption-name">John Doe</p>
+                <p: class="caption-position"> Frontend Developer</p> 
+              </p></figcaption>
             </figure>
           </li>
           <li>
@@ -127,7 +137,10 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe Frontend Developer</figcaption>
+              <figcaption>
+                <p: class="caption-name">John Doe</p>
+                <p: class="caption-position"> Marketing</p> 
+              </figcaption>
             </figure>
           </li>
           <li>
@@ -138,24 +151,27 @@
                 width="270"
                 height="260"
               />
-              <figcaption>John Doe Frontend Developer</figcaption>
+              <figcaption>
+                <p: class="caption-name">John Doe</p>
+                <p: class="caption-position"> UI Designer</p> 
+              </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <div>
+    <footer: class="footers">
+      <div: class="logo">
         <a href="#">
-          <span>Web</span>
-          <span>Studio</span>
+          <span class="blue-logo">Web</span>
+          <span class="white-logo">Studio</span>
         </a>
       </div>
       <address>
         <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li: class="location">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li><a href="mailto:info@example.com" class="link contact-footer">info@example.com</a></li>
+          <li><a href="tel:+48111111111" class="link contact-footer">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>

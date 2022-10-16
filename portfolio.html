@@ -4,42 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"> 
   </head>
   <body>
     <header>
-      <div>
-        <a href="#">
-          <span>Web</span>
-          <span>Studio</span>
+      <div: class="logo">
+        <a href="index.html" class="link">
+          <span: class="blue-logo">Web</span>
+          <span: class="black-logo">Studio</span>
         </a>
       </div>
       <nav>
         <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Port</a>></li>
-          <li><a href="#">Kontakt</a></li>
+          <li: class="navigation"><a href="#" class="link">Agencja</a></li>
+          <li: class="navigation"><a href="portfolio.html" class="link">Portfolio</a></li>
+          <li: class="navigation"><a href="#" class="link">Kontakt</a></li>
         </ul>
       </nav>
       <div>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li: class="contacts-data"><a href="mailto:info@devstudio.com" class="link contacts-data">info@devstudio.com</a></li>
+          <li: class="contacts-data"><a href="tel:+48111111111" class="link contacts-data">+48 111 111 111</a></li>
         </ul>
       </div>
     </header>
     <main>
       <nav>
         <ul>
-          <li><a href="#"></a>Wszystkie</li>
-          <li><a href="#"></a>Strony</li>
-          <li><a href="#"></a>Aplikacje</li>
-          <li><a href="#"></a>Dizajn</li>
-          <li><a href="#"></a>Marketing</li>
+          <li><button type="button" class="button button-filter">Wszystkie</button></li>
+          <li><button type="button" class="button button-filter">Strony</button></li>
+          <li><button type="button" class="button button-filter">Aplikacje</button></li>
+          <li><button type="button" class="button button-filter">Dizajn</button></li>
+          <li><button type="button" class="button button-filter">Marketing</button></li>
         </ul>
       </nav>
       <section>
-        <ul>
+        <ul: class="flex-container wrap">
           <li>
             <figure>
               <img
@@ -49,8 +53,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Technocrack</h4>
-                <p>Strona internetowa</p>
+                <h4: class="portfolio-captions-projects">Technocrack</h4>
+                <p align="left" class="portfolio-captions-project-type">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -63,8 +67,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Grafika New Orlean vs Golden Star</h4>
-                <p>Dizajn</p>
+                <h4: class="portfolio-captions-projects">Grafika New Orlean vs Golden Star</h4>
+                <p align="left" class="portfolio-captions-project-type">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -77,8 +81,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Restauracja Seafood</h4>
-                <p>Aplikacja</p>
+                <h4: class="portfolio-captions-projects">Restauracja Seafood</h4>
+                <p align="left" class="portfolio-captions-project-type">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -91,8 +95,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Projekt Prime</h4>
-                <p>Marketing</p>
+                <h4: class="portfolio-captions-projects">Projekt Prime</h4>
+                <p align="left" class="portfolio-captions-project-type">Marketing</p>
             </figure>
           </li>
           <li>
@@ -104,8 +108,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Projekt Boxes</h4>
-                <p>Aplikacja</p>
+                <h4: class="portfolio-captions-projects">Projekt Boxes</h4>
+                <p align="left" class="portfolio-captions-project-type">Aplikacja</p>
             </figure>
           </li>
           <li>
@@ -117,8 +121,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Inspiration has no Borders</h4>
-                <p>Strona internetowa</p>
+                <h4: class="portfolio-captions-projects">Inspiration has no Borders</h4>
+                <p align="left" class="portfolio-captions-project-type">Strona internetowa</p>
             </figure>
           </li>
           <li>
@@ -130,8 +134,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Magazyn Limited Edition</h4>
-                <p>Dizajn</p>
+                <h4: class="portfolio-captions-projects">Magazyn Limited Edition</h4>
+                <p align="left" class="portfolio-captions-project-type">Dizajn</p>
             </figure>
           </li>
           <li>
@@ -143,8 +147,8 @@
                 height="294"
               />
               <figcaption>
-                <h4>Projekt LAB</h4>
-                <p>Marketing</p>
+                <h4: class="portfolio-captions-projects">Projekt LAB</h4>
+                <p align="left" class="portfolio-captions-project-type">Marketing</p>
             </figure>
           </li>
           <li>
@@ -156,25 +160,25 @@
                 height="294"
               />
               <figcaption>
-                <h4>Growing Business</h4>
-                <p>Aplikacja</p>
+                <h4: class="portfolio-captions-projects">Growing Business</h4>
+                <p align="left" class="portfolio-captions-project-type">Aplikacja</p>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <div>
+    <footer: class="footers">
+      <div: class="logo">
         <a href="#">
-          <span>Web</span>
-          <span>Studio</span>
+          <span: class="blue-logo">Web</span>
+          <span: class="white-logo">Studio</span>
         </a>
       </div>
       <address>
         <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li: class="location">m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li><a href="mailto:info@example.com" class="link contact-footer">info@example.com</a></li>
+          <li><a href="tel:+48111111111" class="link contact-footer">+48 111 111 111</a></li>
         </ul>
       </address>
     </footer>
