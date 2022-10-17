@@ -42,9 +42,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.flex-container {
+.container {
   list-style-type: none;
-  display: flex;
   padding: 0 215px 0 215px;
 }
 
@@ -54,8 +53,6 @@ body {
 }
 
 .footers {
-  position: absolute;
-  width: 1600px;
   height: 252px;
   left: 0px;
   background: #2f303a;
