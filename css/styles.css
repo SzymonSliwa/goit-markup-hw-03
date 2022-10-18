@@ -208,3 +208,7 @@ body {
 .footers .logo .link {
   color: var(--logo-white, #ffffff);
 }
+
+.mail-portfolio {
+  text-decoration: underline;
+}
