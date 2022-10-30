@@ -14,6 +14,7 @@ body {
   font-style: normal;
   color: var(--main-color, #212121);
   list-style-type: none;
+  max-width: 1600px;
 }
 
 .our-strenghts {
@@ -40,21 +41,27 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  margin-top: 0px;
 }
 
 .container {
   list-style-type: none;
-  padding: 0 215px 0 215px;
+  padding: 0 215px;
+  display: flex;
+  gap: 30px;
+  margin: 0px;
 }
 
 .wrap {
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin: 0px;
 }
 
 .footers {
-  left: 0px;
-  background: #2f303a;
+  background: var(--secendery-background-colo, #2f303a);
+  height: 252px;
+  padding: 60px 215px;
 }
 
 .logo {
@@ -65,6 +72,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+  flex-grow: 1;
 }
 
 .blue-logo {
@@ -78,6 +86,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 0 23px;
 }
 
 .contacts-data {
@@ -86,7 +95,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--tertiary-color, #757575);
+  padding: 0 25px;
 }
 
 .title {
@@ -97,7 +107,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--logo-white, #ffffff);
-  background: var(--secendery-background-colo, #2f303a);
+  padding: 200px 452px 30px;
+  margin: 0;
 }
 
 .button {
@@ -106,7 +117,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -114,11 +124,18 @@ body {
   border-radius: 4px;
   cursor: pointer;
   list-style-type: none;
+  display: inline-block;
+  margin: 0 auto;
+  border: none;
 }
 
 .button-service {
   color: var(--logo-white, #ffffff);
   background: var(--secendary-color, #2196f3);
+  display: block;
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
 }
 
 .button-filter {
@@ -129,12 +146,16 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
+  box-shadow: none;
 }
 
 .button-filter:hover,
 .button-filter:focus {
-  color: #ffffff;
+  color: var(--logo-white, #ffffff);
   background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .caption-name {
@@ -143,6 +164,8 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
 }
 
 .caption-position {
@@ -151,7 +174,8 @@ body {
   line-height: 1.91;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--tertiary-color, #757575);
+  margin-top: 0px;
 }
 
 .link {
@@ -164,6 +188,8 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin: 0px;
+  padding: 20px 24px 4px;
 }
 
 .portfolio-captions-project-type {
@@ -171,7 +197,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--tertiary-color, #757575);
+  margin: 0px;
+  padding: 0px 24px 20px;
 }
 
 .location {
@@ -211,4 +239,87 @@ body {
 
 .mail-portfolio {
   text-decoration: underline;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 215px;
+  height: 80px;
+}
+
+nav .list-style-no {
+  display: flex;
+}
+
+.address-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-section {
+  height: 600px;
+  background: var(--secendery-background-colo, #2f303a);
+}
+
+.buttons-filter {
+  gap: 8px;
+  justify-content: center;
+  padding: 100px 0px 50px;
+  margin: 0px;
+}
+
+.our-team {
+  background: var(--background-color, #f5f4fa);
+}
+
+.section {
+  padding-block: 94px;
+}
+
+.team-photo {
+  margin: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  height: 368px;
+}
+
+address ul {
+  padding: 0px;
+}
+
+address ul li {
+  margin-block: 9px;
+}
+
+.team-photo figcaption {
+  padding-top: 30px;
+}
+
+.main-portfolio {
+  border-top: 1px solid #ececec;
+}
+
+.projects {
+  margin: 0px;
+}
+
+.projects-caption {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.section-projects {
+  padding-bottom: 94px;
+}
+
+.navigation-flex {
+  flex-grow: 2;
 }

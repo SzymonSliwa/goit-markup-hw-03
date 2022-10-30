@@ -8,35 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-       <div class="logo">
+      <div class="header-flex">
+        <div class="logo">
         <a href="index.html" class="link">
           <span class="logo blue-logo">Web</span>Studio
         </a>
-      </div>
-      <nav>
-        <ul class="list-style-no">
+        </div>
+        <nav class="navigation-flex">
+          <ul class="list-style-no">
           <li> <a href="#" class="link navigation">Agencja</a></li>
           <li> <a href="portfolio.html" class="link navigation">Portfolio</a></li>
           <li> <a href="#" class="link navigation">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div>
-        <ul class="list-style-no">
-          <li> <a href="mailto:info@devstudio.com" class="link contacts-data">info@devstudio.com</a></li>
-          <li> <a href="tel:+48111111111" class="link contacts-data">+48 111 111 111</a></li>
-        </ul>
-      </div>
+          </ul>
+        </nav>
+        <div>
+          <ul class="list-style-no address-flex">
+            <li> <a href="mailto:info@devstudio.com" class="link contacts-data">info@devstudio.com</a></li>
+            <li> <a href="tel:+48111111111" class="link contacts-data">+48 111 111 111</a></li>
+          </ul>
+        </div>
+      </div> 
     </header>
     <main>
-      <section>
+      <section class="title-section">
         <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button" class="button button-service">Zamów usługę</button>
+          <button type="button" class="button button-service">Zamów usługę</button>
       </section>
-      <section>
+      <section class="section">
         <ul class="container">
           <li>
             <h4 class="our-strenghts">LOREM IPSUM</h4>
@@ -68,7 +72,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section">
         <h2 class="subtitle">Czym się zajmujemy</h2>
         <ul class="container">
           <li>
@@ -97,11 +101,11 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section our-team">
         <h2 class="subtitle">Nasz zespół</h2>
         <ul class="container">
           <li>
-            <figure>
+            <figure class="team-photo">
               <img
                 src="images/ourteam1.jpg"
                 alt="Zdjęcie Johna jeden"
@@ -112,10 +116,10 @@
                 <p class="caption-name">John Doe</p>
                 <p class="caption-position"> Product Designer</p> 
               </figcaption>
-            </figure>
-          </li>
+            </figure class="team-photo">
+          </li> 
           <li>
-            <figure>
+            <figure class="team-photo">
               <img
                 src="images/ourteam2.jpg"
                 alt="Zdjęcie Johna dwa"
@@ -129,7 +133,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-photo">
               <img
                 src="images/ourteam3.jpg"
                 alt="Zdjęcie Johna trzy"
@@ -143,7 +147,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="team-photo">
               <img
                 src="images/ourteam4.jpg"
                 alt="Zdjęcie Johna cztery"
@@ -160,18 +164,20 @@
       </section>
     </main>
     <footer class="footers">
-      <div class="logo">
+      <div>
+        <div class="logo">
         <a href="index.html" class="link">
           <span class="blue-logo">Web</span>Studio
         </a>
+        </div>
+        <address>
+         <ul class="list-style-no">
+            <li class="location">m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li><a href="mailto:info@example.com" class="link contact-footer">info@example.com</a></li>
+            <li><a href="tel:+48111111111" class="link contact-footer">+48 111 111 111</a></li>
+         </ul>
+        </address>
       </div>
-      <address>
-        <ul class="list-style-no">
-          <li class="location">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:info@example.com" class="link contact-footer">info@example.com</a></li>
-          <li><a href="tel:+48111111111" class="link contact-footer">+48 111 111 111</a></li>
-        </ul>
-      </address>
     </footer>
   </body>
 </html>
