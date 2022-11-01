@@ -19,21 +19,23 @@
   </head>
   <body>
     <header>
-      <div class="header-flex">
-        <div class="logo">
-          <a href="index.html" class="link">
-            <span class="logo blue-logo">Web</span>Studio
-          </a>
+      <div class="header-flex container">
+        <div class="header-left">
+          <div class="logo logo-margin">
+            <a href="index.html" class="link">
+              <span class="logo blue-logo">Web</span>Studio
+            </a>
+          </div>
+          <nav>
+            <ul class="list-style-no">
+              <li><a href="#" class="link navigation">Agencja</a></li>
+              <li>
+                <a href="portfolio.html" class="link navigation">Portfolio</a>
+              </li>
+              <li><a href="#" class="link navigation">Kontakt</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="navigation-flex">
-          <ul class="list-style-no">
-            <li><a href="#" class="link navigation">Agencja</a></li>
-            <li>
-              <a href="portfolio.html" class="link navigation">Portfolio</a>
-            </li>
-            <li><a href="#" class="link navigation">Kontakt</a></li>
-          </ul>
-        </nav>
         <div>
           <ul class="list-style-no address-flex">
             <li>
@@ -52,13 +54,14 @@
     </header>
     <main>
       <section class="title-section">
-        <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <h1 class="title">EFEKTYWNE ROZWIĄZANIA</h1>
+        <h1 class="title">DLA WASZEGO BIZNESU</h1>
         <button type="button" class="button button-service">
           Zamów usługę
         </button>
       </section>
       <section class="section">
-        <ul class="container">
+        <ul class="container section-content">
           <li>
             <h4 class="our-strenghts">LOREM IPSUM</h4>
             <p class="our-strenghts-description">
@@ -89,10 +92,10 @@
           </li>
         </ul>
       </section>
-      <section class="section">
+      <section class="section section-padding-bottom">
         <h2 class="subtitle">Czym się zajmujemy</h2>
-        <ul class="container">
-          <li>
+        <ul class="container section-content">
+          <li class="what-we-do-height">
             <img
               src="images/whatwedo1.jpg"
               alt="Stanowisko pracy programisty"
@@ -100,7 +103,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="what-we-do-height">
             <img
               src="images/whatwedo2.jpg"
               alt="Programista z laptopem i smartfonem"
@@ -108,7 +111,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="what-we-do-height">
             <img
               src="images/whatwedo3.jpg"
               alt="Programista z paletą barw na tablecie"
@@ -118,9 +121,9 @@
           </li>
         </ul>
       </section>
-      <section class="section our-team">
+      <section class="section our-team section-padding-bottom">
         <h2 class="subtitle">Nasz zespół</h2>
-        <ul class="container">
+        <ul class="container section-content">
           <li>
             <figure class="team-photo">
               <img
@@ -182,26 +185,28 @@
     </main>
     <footer class="footers">
       <div>
-        <div class="logo">
-          <a href="index.html" class="link">
-            <span class="blue-logo">Web</span>Studio
-          </a>
+        <div class="container">
+          <div class="logo">
+            <a href="index.html" class="link">
+              <span class="blue-logo">Web</span>Studio
+            </a>
+          </div>
+          <address>
+            <ul class="list-style-no">
+              <li class="location">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a href="mailto:info@example.com" class="link contact-footer"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+48111111111" class="link contact-footer"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
         </div>
-        <address>
-          <ul class="list-style-no">
-            <li class="location">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>
-              <a href="mailto:info@example.com" class="link contact-footer"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+48111111111" class="link contact-footer"
-                >+48 111 111 111</a
-              >
-            </li>
-          </ul>
-        </address>
       </div>
     </footer>
   </body>
