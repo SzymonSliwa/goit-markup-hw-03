@@ -109,6 +109,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 0 23px;
+}
+
+nav .list-style-no .navigation {
   color: var(--main-color, #212121);
 }
 
