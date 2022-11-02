@@ -54,7 +54,7 @@ body {
   display: flex;
   gap: 30px;
   padding: 0px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .our-team {
@@ -73,7 +73,7 @@ body {
   display: flex;
   gap: 30px;
   padding: 0px;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0px;
   list-style-type: none;
@@ -111,10 +111,6 @@ body {
   padding: 0 23px;
 }
 
-nav .list-style-no .navigation {
-  color: var(--main-color, #212121);
-}
-
 .contacts-data {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -122,7 +118,11 @@ nav .list-style-no .navigation {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--tertiary-color, #757575);
-  padding: 0 25px;
+  padding: 0 15px;
+}
+
+.address-flex .contacts-data {
+  color: var(--tertiary-color, #757575);
 }
 
 .title {
@@ -237,11 +237,12 @@ nav .list-style-no .navigation {
   color: var(--logo-white, #ffffff);
 }
 
-.contact-footer {
+.list-style-no .contact-footer {
   color: var(--color-contact-footer, rgba(255, 255, 255, 0.6));
 }
 
-.link:visited {
+.link:visited,
+.link {
   color: var(--main-color, #212121);
 }
 
@@ -272,6 +273,7 @@ nav .list-style-no .navigation {
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 
 nav .list-style-no {
@@ -315,24 +317,17 @@ address ul li {
   padding-top: 30px;
 }
 
-.main-portfolio {
-  border-top: 1px solid #ececec;
-}
-
 .projects {
   margin: 0px;
+  height: 404px;
 }
 
 .projects-caption {
   width: 370px;
+  height: 110px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-}
-
-.item {
-  flex-basis: calc((100% - 60px) / 3);
-  height: 404px;
 }
 
 .what-we-do-height {
